@@ -6,6 +6,10 @@
     padding: 20px 80px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgb(0,0,0,0.6);
+    z-index: 999;
+    position:sticky;
+    top: 0;
+    left: 0;
 
 }
 #navbar{
@@ -79,6 +83,150 @@ color: blueviolet;
 
 
 }
+/*Section p1 part*/
+.section-p1{
+    top: 10px;
+    padding: 40px 80px;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#feature .box{
+    width: 170px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rebeccapurple ;
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    margin: 15px 0;
+
+
+
+}
+#feature .box .a{
+    height: 100px;
+    
+}
+#feature .box:hover{
+    box-shadow: 10px 10px 54px rgb(134, 153, 51) ;
+}
+#feature .box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature .box h6{
+    display: inline-block;
+    padding: 5px 3px 4px 4px;
+    line-height: 1;
+    border-radius: 4px;
+    color: blueviolet;
+    background-color: chartreuse;
+
+
+}
+#feature .box:nth-child(2) h6{
+    background-color: aqua;
+}
+#feature .box:nth-child(3) h6{
+    background-color: rgb(208, 255, 0);
+        
+    }
+#feature .box:nth-child(4) h6{
+ background-color: aqua;
+            
+ }
+        
+#feature .box:nth-child(5) h6{
+  background-color: rgb(51, 0, 255);
+                
+     }
+            
+#feature .box:nth-child(6) h6{
+  background-color: rgb(255, 0, 174);
+                    
+ }
+ /*produtcs Feature*/
+ #product1{
+    text-align: center;
+    color: aqua;
+ }
+ 
+ #product1 .Pro-lolection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+
+ }
+
+ #product1 .pro{
+    width:23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid chocolate;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgb(134, 153, 51);
+    transition: 0.2 ease;
+    position: relative;
+    margin: 15px 0;
+    
+ }
+ #product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgb(51, 153, 87);
+
+
+ } 
+ #product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+ } 
+ #product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+
+ } 
+ #product1 .pro .des span{
+    color: rgb(207, 59, 6);
+    font-size: 15px;
+ } 
+ #product1 .pro .des h5{
+    padding-top: 3px;
+    color: black;
+    font-size: 15px;
+
+ }            
+ #product1 .pro .des i{
+    font-size: 15px;
+    color: chocolate;
+ }    
+ #product1 .pro .des h4{
+    padding-top: 5px;
+    font-size: 15px;
+    color: chartreuse;
+ } 
+ #product1 .pro .x{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    background-color: rgb(142, 207, 12);
+    font-weight: 500;
+    color: blueviolet;
+    border:1px solid cornsilk ;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+ }
+
+
+    
 
     
 
