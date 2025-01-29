@@ -439,7 +439,103 @@ footer .install .row img{
 footer .install img{
     margin: 10px 0 10px 0;
 }
-@media(max-width:750px){
+/* shop page hjijijoihhiihii*/
+#page-header{
+    background-image:url(img/Screenshot\ 2025-01-24\ 162147.png);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: 12% 25%;
+    text-align: center;
+    flex-direction: column;
+    padding: 5px;
+}
+#page-header h2,
+#page-header p{
+    color: #35c15d;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #35c15d;
+    padding-inline: 15px 20px;
+    border-radius: 4px;
+    color: #e3e6f3;
+    font-weight: 600;
+    
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+/*Single product detials*/
+#prodetaiils{
+    display: flex;
+    margin-top: 10px;
+}
+#prodetaiils .single{
+    width: 35%;
+    padding-left: 50px;
+    padding-top: 10px;
+   
+}
+.single .multipe{
+    margin-top:5px;;
+}
+.multipe{
+    display: flex;
+    justify-content:space-between;
+}
+.mulco{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.sprod{
+    padding-left: 10px;
+}
+#prodetaiils .sprod{
+    width: 50%;
+    padding-top: 10px;
+} 
+#prodetaiils .sprod h4{
+    padding-top:2px;
+    color: rgb(40, 95, 95);
+}
+#prodetaiils .sprod h6{
+    padding-top:2px;
+    color: rgb(16, 17, 17);
+}
+#prodetaiils .sprod select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+#prodetaiils .sprod input{
+    width: 35px;
+    height: 25px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#prodetaiils .sprod button{
+    width: 45px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #70d20e;
+}
+#prodetaiils .sprod button:hover{
+    color: aquamarine;
+}
+
+   
+
+/*@media(max-width:750px){
     #navbar {
         display: flex;
         flex-direction: column;
